@@ -1,0 +1,43 @@
+.main-help__img--title {
+    font-size: 1.8rem;
+}
+.main-help__img--mail {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--navy-blue);
+}
+.main-help__img {
+    width: 20rem;
+}
+.main-help__img--subtitle {
+    font-size: 1.6rem;
+}
+
+@media (min-width: 600px) {
+    .main-help__img--title {
+        font-size: 2rem;
+    }
+    .main-help__img--mail {
+        font-size: 1.6rem;
+    }
+    .main-help__img {
+        width: 25rem;
+    }
+    .main-help__img--subtitle {
+        font-size: 1.8rem;
+    }
+}
+@media (min-width: 1000px) {
+    .main-help__img--title {
+        font-size: 2.4rem;
+    }
+    .main-help__img--mail {
+        font-size: 1.8rem;
+    }
+    .main-help__img {
+        width: 30rem;
+    }
+    .main-help__img--subtitle {
+        font-size: 2rem;
+    }
+}
