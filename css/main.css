@@ -1,9 +1,16 @@
+@import url('[https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap](https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap)');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Tajawal:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Poppins:wght@400;700&family=Tajawal:wght@400;700&display=swap');
+
 :root {
     --light-background: #ECFCFF;
     --light-blue: #B2FCFF;
     --blue: #5EDFFF;
     --strong-blue: #3E64FF;
     --navy-blue: #161D6F;
+    --orbitron: 'Orbitron', sans-serif;
+    --tajawal: 'Tajawal', sans-serif;
+    --poppins: 'Poppins', sans-serif;
 }
 
 html {
