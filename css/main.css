@@ -9,6 +9,23 @@
     --poppins: 'Poppins', sans-serif;
 }
 
+html::-webkit-scrollbar {
+    width: 12px;
+}
+
+html::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+    background-color: rgba(22, 255, 226, .5);
+    border-radius: 20px;
+}
+
+html::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(22, 255, 226);
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -72,6 +89,7 @@ a {
     font-weight: 500;
     justify-content: flex-end;
     margin-right: 30px;
+    font-weight: bold;
 }
 
 .header__nav--desktop ul {
@@ -97,7 +115,7 @@ a {
 
 .header__nav--desktop ul li a:hover {
     cursor: pointer;
-    background-color: var(--light-blue);
+    background-color: var(--light-background);
     color: black;
 }
 
