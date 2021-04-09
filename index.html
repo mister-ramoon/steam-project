@@ -5,11 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ruela - Home</title>
     <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/smartphone.css" media="(max-width: 600px)" />
     <link rel="shortcut icon" href="./assets/img/logo.png" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&family=Poppins:wght@400;600&family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
   </head>
   <body>
+    <header class="header">
+        <div class="header__container">
+          <a href="./index.html">
+            <img class="header__container--logo" src="./assets/img/logo.png" alt="Logo">
+          </a>
+        </div>
+        <div class="header__menu--smartphone">
+          <div id="btn-toggle" class="header__menu--icon"></div>
+        </div>
+        <nav class="header__nav--desktop">
+            <ul>
+                <li><a href="">Perfil</a></li>
+                <li><a href="">Home</a></li>
+                <li><a href="">Trabajos</a></li>
+                <li><a href="">Contacto</a></li>
+            </ul>
+        </nav>
+          <aside id="aside" class="aside">
+            <ul>
+              <li>
+                <a href="#" class="about">Perfil</a>
+              </li>
+              <li>
+                <a href="#" class="projects">Home</a>
+              </li>
+              <li>
+                <a href="#" class="contact">Trabajos</a>
+              </li>
+              <li>
+                <a href="#" class="contact">Contacto</a>
+              </li>
+            </ul>
+          </aside>
+    </header>
+
+    <div>
+      <div id="preload-01"></div>
+    </div>
+
     <footer class="footer-content">
       <nav class="footer__nav">
         <li class="footer__nav--item">
@@ -35,5 +75,7 @@
       </figure>
 
     </footer>
+    
+    <script src="./js/main.js"></script>
   </body>
 </html>

@@ -1,0 +1,92 @@
+.header {
+    width: 100%;
+    height: 80px;
+    background-color: var(--blue);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__container--logo {
+    width: 60px;
+    margin: 5px 20px 0;
+    padding: 5px 0;
+}
+
+.header__nav--desktop {
+    display: none;
+}
+
+.header__menu--smartphone {
+    display: flex;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin-inline-end: 20px;
+    z-index: 10;
+}
+
+.header__menu--icon {
+    width: 50px;
+    height: 50px;
+    background: url('../assets/svg/Hamburguer.svg') center/contain no-repeat;
+    cursor: pointer;
+    display: flex;
+    position: absolute;
+    transition: all .4s cubic-bezier(0, .5, 1, 1);
+}
+
+.aside {
+    display: flex;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    right: -100%;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--blue);
+    transition: all .4s;
+}
+
+.aside ul {
+    list-style: none;
+    width: 100%;
+}
+
+.aside ul li {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.aside ul li a {
+    width: 80%;
+    background-color: var(--light-blue);
+    color: black;
+    display: inline-block;
+    text-align: center;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 10px 0;
+    font-size: 2.4rem;
+    font-family: var(--orbitron);
+}
+
+.aside ul li a:hover {
+    background-color: var(--strong-blue);
+    color: white;
+}
+
+.active {
+    right: 0;
+}
+
+.header__menu--close-icon {
+    background: url('../assets/svg/Close.svg') center/contain no-repeat;
+    transform: rotate(360deg);
+}
+
+#preload-01 {
+    background: url('../assets/svg/Close.svg') no-repeat -9999px -9999px;
+}
