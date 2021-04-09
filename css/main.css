@@ -1,0 +1,15 @@
+:root {
+    --light-background: #ECFCFF;
+    --light-blue: #B2FCFF;
+    --blue: #5EDFFF;
+    --strong-blue: #3E64FF;
+    --navy-blue: #161D6F;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: var(--light-background);
+}
