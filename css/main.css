@@ -6,10 +6,29 @@
     --navy-blue: #161D6F;
 }
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+    text-transform: none;
+}
+
 html {
     font-size: 62.5%;
 }
 
 body {
     background-color: var(--light-background);
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Orbitron', sans-serif;
+}
+
+a {
+    font-family: 'Tajawal', sans-serif;
 }
