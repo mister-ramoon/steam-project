@@ -1,0 +1,87 @@
+.main-login {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--light-blue);
+    border-radius: 1rem;
+}
+.main-login__img {
+    width: 8rem;
+}
+.main-login__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-login__form--label {
+    font-size: 1.6rem;
+}
+.mian-login__form--input-text {
+    padding: .5rem;
+    margin-bottom: 1rem;
+    border: 1px solid;
+    border-color: var(--blue);
+    border-radius: .5rem;
+    font-size: 1.4rem;
+}
+.main-login__form--input-btn {
+    padding: .5rem 1rem;
+    margin-bottom: 1rem;
+    background-color: var(--blue);
+    border: 1px solid var(--blue);
+    border-radius: .5rem;
+    font-size: 1.6rem;
+    font-weight: 800;
+    color: var(--light-background);
+    cursor: pointer;
+}
+.main-login__form--link {
+    margin: .5rem;
+    font-size: 1.4rem;
+    color: var(--navy-blue);
+}
+
+@media (min-width: 600px) {
+    .main-login {
+        margin: 5rem 14rem;
+    }
+    .main-login__img {
+        width: 10rem;
+    }
+    .main-login__form--label {
+        font-size: 1.8rem;
+    }
+    .mian-login__form--input-text {
+        font-size: 1.6rem;
+        padding: .7rem;
+    }
+    .main-login__form--input-btn {
+        font-size: 1.8rem;
+    }
+    .main-login__form--link {
+        font-size: 1.6rem;
+    }
+}
+@media (min-width: 1000px) {
+    .main-login {
+        margin: 5rem 20rem;
+    }
+    .main-login__img {
+        width: 15rem;
+    }
+    .main-login__form--label {
+        font-size: 2rem;
+    }
+    .mian-login__form--input-text {
+        font-size: 1.8rem;
+        padding: .8rem;
+    }
+    .main-login__form--input-btn {
+        font-size: 2rem;
+    }
+    .main-login__form--link {
+        font-size: 1.8rem;
+    }
+}
