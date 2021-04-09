@@ -1,0 +1,45 @@
+.main-teams__img--title {
+    font-size: 1.8rem;
+}
+.main-teams__img--text {
+    font-size: 1.2rem;
+}
+.main-teams__img {
+    margin-top: 1rem;
+    width: 27rem;
+}
+.main-teams__img--subtitle {
+    font-size: 1.6rem;
+    margin-top: 1.5rem;
+}
+
+@media (min-width: 600px) {
+    .main-teams__img--title {
+        font-size: 2rem;
+    }
+    .main-teams__img--text {
+        font-size: 1.4rem;
+        padding: 0 15rem;
+    }
+    .main-teams__img {
+        width: 40rem;
+    }
+    .main-teams__img--subtitle {
+        font-size: 1.8rem;
+    }
+}
+@media (min-width: 1000px) {
+    .main-teams__img--title {
+        font-size: 2.4rem;
+    }
+    .main-teams__img--text {
+        font-size: 1.6rem;
+        padding: 0 20rem;
+    }
+    .main-teams__img {
+        width: 54rem;
+    }
+    .main-teams__img--subtitle {
+        font-size: 2rem;
+    }
+}
