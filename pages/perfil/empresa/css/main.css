@@ -26,9 +26,14 @@
     border-radius: .5rem;
     font-size: 1.4rem;
 }
+.main-login__form--input--container {
+    border: none;
+    background: none;
+    margin: 1rem;
+}
 .main-login__form--input-btn {
-    padding: .5rem 1rem;
-    margin-bottom: 1rem;
+    padding: 1rem;
+    padding-bottom: .5rem;
     background-color: var(--blue);
     border: 1px solid var(--blue);
     border-radius: .5rem;
