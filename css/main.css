@@ -35,3 +35,70 @@ h1, h2, h3, h4, h5, h6 {
 a {
     font-family: var(--tajawal);
 }
+
+/* Footer */
+.footer-content {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    background-color: var(--blue);
+}
+.footer__nav--item {
+    padding: 0 .2rem;
+}
+.footer__nav--link{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.footer__img {
+    width: 6rem;
+}
+.footer__img--text {
+    font-size: 1.0rem;
+}
+.footer__copy{
+    margin-top: 1rem;
+    font-size: 1.0rem;
+    font-weight: 600;
+}
+
+@media (min-width: 600px) {
+
+    /* Footer */
+    .footer-content {
+        justify-content: space-evenly;
+    }
+    .footer__nav {
+        display: flex;
+        align-items: center;
+    }
+    .footer__nav--item {
+        margin: .5rem;
+    }
+    .footer__nav--link {
+        font-size: 1.4rem;
+    }
+    .footer__img--text, .footer__copy {
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 1000px) {
+
+    /* Footer */
+    .footer__nav--link {
+        font-size: 1.6rem;
+    }
+    .footer__nav--social-icon {
+        width: 4rem;
+    }
+    .footer__img--text, .footer__copy {
+        font-size: 1.4rem;
+    }
+}
