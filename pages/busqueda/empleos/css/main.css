@@ -1,0 +1,146 @@
+.main-jobs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+.main-jobs__searh {
+    padding: .5rem 1rem;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 1rem;
+}
+.main-jobs__search--input {
+    border: none;
+    font-size: 1.4rem;
+}
+.main-jobs__search--icon {
+    width: 2.8rem;
+}
+
+.main-jobs__content {
+    display: flex;
+    flex-direction: column;
+}
+.main-job__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.main-job {
+    padding: 1rem;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--light-blue);
+    border-radius: 1rem;
+}
+.main-job__title {
+    font-size: 1.8rem;
+}
+.main-job__img {
+    width: 25rem;
+    margin: 1rem 0;
+    border-radius: 1rem;
+}
+.main-job__text {
+    font-size: 1.4rem;
+    font-weight: 600;
+    align-self: flex-start;
+    color: var(--navy-blue);
+}
+.main-job__btn {
+    padding: .5rem;
+    padding-top: 1rem;
+    margin-top: 1rem;
+    background-color: var(--blue);
+    border: 1px solid var(--blue);
+    border-radius: .5rem;
+}
+.main-job__btn--link {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--navy-blue);
+}
+.main-job__link {
+    color: var(--navy-blue);
+    font-size: 1.4;
+    font-weight: 600;
+}
+
+@media (min-width: 600px) {
+    .main-jobs {
+        padding: 2rem;
+    }
+    .main-jobs__searh {
+        padding: 1rem;
+    }
+    .main-jobs__search--input {
+        font-size: 1.6rem;
+    }
+    .main-jobs__search--icon {
+        width: 3rem;
+    }
+
+    .main-job__container {
+        margin: 0 3rem;
+    }
+    .main-job {
+        flex-direction: row;
+    }
+    .main-job__title {
+        font-size: 2rem;
+    }
+    .main-job__text {
+        font-size: 1.6rem;
+    }
+    .main-job__btn--link {
+        font-size: 1.8rem;
+    }
+    .main-job__link {
+        font-size: 1.6;
+    }
+}
+
+@media (min-width: 600px) {
+    .main-jobs {
+        padding: 3rem;
+    }
+    .main-jobs__searh {
+        padding: 1rem 2rem;
+    }
+    .main-jobs__search--input {
+        font-size: 1.8rem;
+        padding-right: 20rem;
+    }
+    .main-jobs__search--icon {
+        width: 3.2rem;
+    }
+
+    .main-job__container {
+        margin: 0 5rem;
+    }
+    .main-job {
+        flex-direction: row;
+    }
+    .main-job__title {
+        font-size: 2.4rem;
+    }
+    .main-job__text {
+        font-size: 1.8rem;
+    }
+    .main-job__btn--link {
+        font-size: 2rem;
+    }
+    .main-job__link {
+        font-size: 1.8;
+    }
+}

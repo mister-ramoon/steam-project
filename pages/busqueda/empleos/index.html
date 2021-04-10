@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ruela - Home</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="../../../../css/main.css" />
+    <link rel="stylesheet" href="../../../../css/smartphone.css" media="(max-width: 600px)" />
+    <link rel="shortcut icon" href="../../../../assets/img/logo.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&family=Poppins:wght@400;600&family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="header">
+        <div class="header__container">
+          <a href="../../../../index.html">
+            <img class="header__container--logo" src="../../../../assets/img/anita.png" alt="Logo">
+          </a>
+        </div>
+        <div class="header__menu--smartphone">
+          <div id="btn-toggle" class="header__menu--icon"></div>
+        </div>
+        <nav class="header__nav--desktop">
+            <ul>
+                <li><a href="../../perfil/estudiante/user/">Perfil</a></li>
+                <li><a href="../../../index.html">Home</a></li>
+                <li><a href="#">Trabajos</a></li>
+                <li><a href="../../contacto/">Contacto</a></li>
+            </ul>
+        </nav>
+          <aside id="aside" class="aside">
+            <ul>
+              <li>
+                <a href="../../perfil/estudiante/user/"" class="about">Perfil</a>
+              </li>
+              <li>
+                <a href="../../../index.html" class="projects">Home</a>
+              </li>
+              <li>
+                <a href="#" class="contact">Trabajos</a>
+              </li>
+              <li>
+                <a href="../../contacto/" class="contact">Contacto</a>
+              </li>
+            </ul>
+          </aside>
+    </header>
+
+    <div>
+      <div id="preload-01"></div>
+    </div>
+
+    <main class="main-content">
+        <section class="main-jobs">
+            <div class="main-jobs__searh">
+                <input class="main-jobs__search--input" type="text" placeholder="Buscar..." >
+                <img class="main-jobs__search--icon" src="../../../assets/svg/search.svg" alt="Search Icon">
+            </div>
+            <div class="main-jobs__content">
+                <div class="main-job">
+                  <div class="main-job__container">
+                    <h2 class="main-job__title">Empresa 1</h2>
+                    <img class="main-job__img" src="../../../assets/img/job1.png" alt="Job Image">
+                  </div>
+                  <div class="main-job__container">
+                    <p class="main-job__text">Ubicación:</p>
+                    <p class="main-job__text">Puesto:</p>
+                    <button class="main-job__btn">
+                      <a class="main-job__btn--link" href="./empresa/">Más Información</a>
+                    </button>
+                  </div>
+                </div>
+                <div class="main-job">
+                  <div class="main-job__container">
+                    <h2 class="main-job__title">Empresa 2</h2>
+                    <img class="main-job__img" src="../../../assets/img/job2.png" alt="Job Image">
+                  </div>
+                  <div class="main-job__container">
+                    <p class="main-job__text">Ubicación:</p>
+                    <p class="main-job__text">Puesto:</p>
+                    <button class="main-job__btn">
+                      <a class="main-job__btn--link" href="./empresa/">Más Información</a>
+                    </button>
+                  </div>
+                </div>
+                <div class="main-job">
+                  <div class="main-job__container">
+                    <h2 class="main-job__title">Empresa 3</h2>
+                    <img class="main-job__img" src="../../../assets/img/job3.png" alt="Job Image">
+                  </div>
+                  <div class="main-job__container">
+                    <p class="main-job__text">Ubicación:</p>
+                    <p class="main-job__text">Puesto:</p>
+                    <button class="main-job__btn">
+                      <a class="main-job__btn--link" href="./empresa/">Más Información</a>
+                    </button>
+                  </div>
+                </div>
+            </div>
+            <a class="main-job__link" href="../estudiantes/">Buscar Telento</a>
+        </section>
+    </main>
+    
+    <footer class="footer-content">
+      <nav class="footer__nav">
+        <li class="footer__nav--item">
+          <a class="footer__nav--link" href="../../contacto/">Contáctanos</a>
+        </li>
+        <li class="footer__nav--item">
+          <a class="footer__nav--link" href="../../ayuda/">Ayuda!</a>
+        </li>
+        <li class="footer__nav--item">
+          <a class="footer__nav--link" href="#"><img class="footer__nav--social-icon" src="../../../../assets/svg/Facebook.svg" alt="Facebook Logo"></a>
+        </li>
+        <li class="footer__nav--item">
+          <a class="footer__nav--link" href="#"><img class="footer__nav--social-icon" src="../../../../assets/svg/Instagram.svg" alt="Instagram Logo"></a>
+        </li>
+        <li class="footer__nav--item">
+          <a class="footer__nav--link" href="#"><img class="footer__nav--social-icon" src="../../../../assets/svg/Whatsapp.svg" alt="WhatsApp Logo"></a>
+        </li>
+      </nav>
+      <figure class="footer__img--container">
+        <img class="footer__img" src="../../../../assets/img/logo-poli.png" alt="Logo Politécnico">
+        <figcaption class="footer__img--text">Escuela Politécnica <br/> Ing. Jorge Matute Remus</figcaption>
+        <p class="footer__copy">©Ruela - 2021</p>
+      </figure>
+
+    </footer>
+    
+    <script src="../../../js/main.js"></script>
+  </body>
+</html>

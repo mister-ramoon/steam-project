@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ruela - Home</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="../../../../css/main.css" />
+    <link rel="stylesheet" href="../../../../css/smartphone.css" media="(max-width: 600px)" />
+    <link rel="shortcut icon" href="../../../../assets/img/logo.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&family=Poppins:wght@400;600&family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="header">
+        <div class="header__container">
+          <a href="../../../../index.html">
+            <img class="header__container--logo" src="../../../../assets/img/logo.png" alt="Logo">
+          </a>
+        </div>
+        <div class="header__menu--smartphone">
+          <div id="btn-toggle" class="header__menu--icon"></div>
+        </div>
+        <nav class="header__nav--desktop">
+            <ul>
+                <li><a href="../../perfil/estudiante/user/">Perfil</a></li>
+                <li><a href="../../../index.html">Home</a></li>
+                <li><a href="../empleos/">Trabajos</a></li>
+                <li><a href="../../contacto/">Contacto</a></li>
+            </ul>
+        </nav>
+          <aside id="aside" class="aside">
+            <ul>
+              <li>
+                <a href="../../perfil/estudiante/user/"" class="about">Perfil</a>
+              </li>
+              <li>
+                <a href="../../../index.html" class="projects">Home</a>
+              </li>
+              <li>
+                <a href="../empleos/" class="contact">Trabajos</a>
+              </li>
+              <li>
+                <a href="../../contacto/" class="contact">Contacto</a>
+              </li>
+            </ul>
+          </aside>
+    </header>
+
+    <div>
+      <div id="preload-01"></div>
+    </div>
+
+    <main class="main-content">
+        <section class="main-talents">
+            <div class="main-talents__searh">
+                <input class="main-talents__search--input" type="text" placeholder="Buscar..." >
+                <img class="main-talents__search--icon" src="../../../assets/svg/search.svg" alt="Search Icon">
+            </div>
+            <div class="main-talents__content">
+                <div class="main-talent">
+                  <div class="main-talent__container">
+                    <img class="main-talent__img" src="../../../assets/img/anita.png" alt="talent Image">
+                  </div>
+                  <div class="main-talent__container">
+                    <p class="main-talent__text">Nombre: <span class="main-talent__subtext">Anita</span> </p>
+                    <p class="main-talent__text">Carrera: <span class="main-talent__subtext">Informática</span> </p>
+                    <button class="main-talent__btn">
+                      <a class="main-talent__btn--link" href="./perfil/">Ver Perfil</a>
+                    </button>
+                  </div>
+                </div>
+                <div class="main-talent">
+                    <div class="main-talent__container">
+                      <img class="main-talent__img" src="../../../assets/img/profile2.png" alt="talent Image">
+                    </div>
+                    <div class="main-talent__container">
+                      <p class="main-talent__text">Nombre: <span class="main-talent__subtext">Josefa</span> </p>
+                      <p class="main-talent__text">Carrera: <span class="main-talent__subtext">Biotecnología</span> </p>
+                      <button class="main-talent__btn">
+                        <a class="main-talent__btn--link" href="./perfil/">Ver Perfil</a>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="main-talent">
+                    <div class="main-talent__container">
+                      <img class="main-talent__img" src="../../../assets/img/profile3.png" alt="talent Image">
+                    </div>
+                    <div class="main-talent__container">
+                      <p class="main-talent__text">Nombre: <span class="main-talent__subtext">Kalel</span> </p>
+                      <p class="main-talent__text">Carrera: <span class="main-talent__subtext">Marketing</span> </p>
+                      <button class="main-talent__btn">
+                        <a class="main-talent__btn--link" href="./perfil/">Ver Perfil</a>
+                      </button>
+                    </div>
+                  </div>
+            </div>
+            <a class="main-talent__link" href="../empleos/">Buscar Empleo</a>
+        </section>
+    </main>
+    
+    <footer class="footer-content">
+      <nav class="footer__nav">
+        <li class="footer__nav--item">
+          <a class="footer__nav--link" href="../../contacto/">Contáctanos</a>
+        </li>
+        <li class="footer__nav--item">
+          <a class="footer__nav--link" href="../../ayuda/">Ayuda!</a>
+        </li>
+        <li class="footer__nav--item">
+          <a class="footer__nav--link" href="#"><img class="footer__nav--social-icon" src="../../../../assets/svg/Facebook.svg" alt="Facebook Logo"></a>
+        </li>
+        <li class="footer__nav--item">
+          <a class="footer__nav--link" href="#"><img class="footer__nav--social-icon" src="../../../../assets/svg/Instagram.svg" alt="Instagram Logo"></a>
+        </li>
+        <li class="footer__nav--item">
+          <a class="footer__nav--link" href="#"><img class="footer__nav--social-icon" src="../../../../assets/svg/Whatsapp.svg" alt="WhatsApp Logo"></a>
+        </li>
+      </nav>
+      <figure class="footer__img--container">
+        <img class="footer__img" src="../../../../assets/img/logo-poli.png" alt="Logo Politécnico">
+        <figcaption class="footer__img--text">Escuela Politécnica <br/> Ing. Jorge Matute Remus</figcaption>
+        <p class="footer__copy">©Ruela - 2021</p>
+      </figure>
+
+    </footer>
+    
+    <script src="../../../js/main.js"></script>
+  </body>
+</html>
