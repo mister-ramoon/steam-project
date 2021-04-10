@@ -39,7 +39,7 @@
     border-radius: .5rem;
     font-size: 1.6rem;
     font-weight: 800;
-    color: var(--light-background);
+    color: white;
     cursor: pointer;
 }
 .main-login__form--link {
