@@ -50,6 +50,7 @@
     align-items: center;
     background-color: var(--blue);
     transition: all .4s;
+    z-index: 1;
 }
 
 .aside ul {
