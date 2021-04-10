@@ -70,10 +70,19 @@ a {
     justify-content: space-between;
 }
 
+.header__container {
+    display: flex;
+    position: relative;
+    height: 100%;
+}
+
 .header__container--logo {
-    width: 60px;
-    margin: 5px 30px 0;
-    padding: 5px 0;
+    background: url('/assets/img/logoo.png') center/contain no-repeat;
+    height: 100%;
+    width: 160px;
+    margin: 0px 30px 0;
+    display: flex;
+    position: absolute;
 }
 
 .aside {
