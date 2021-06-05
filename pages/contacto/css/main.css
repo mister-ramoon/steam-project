@@ -23,6 +23,7 @@
     }
     .main-teams__img {
         width: 40rem;
+        border-radius: 10px;
     }
     .main-teams__img--subtitle {
         font-size: 1.8rem;

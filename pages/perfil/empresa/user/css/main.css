@@ -5,7 +5,6 @@
 }
 .main-user__img--container {
     text-align: center;
-    margin: 0 50px 2rem 0;
 }
 .main-user__img {
     width: 20rem;
@@ -79,5 +78,8 @@
     }
     .main-user__info--list-item {
         font-size: 1.6rem;
+    }
+    .main-user__img--container {
+        margin: 0 50px 2rem 0;
     }
 }
